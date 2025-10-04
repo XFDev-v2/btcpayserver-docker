@@ -287,7 +287,7 @@ namespace DockerFileBuildHelper
                     dockerInfo.DockerFilePath = "docker-compose-generator/Dockerfile";
                     dockerInfo.DockerFilePathARM32v7 = "docker-compose-generator/Dockerfile";
                     dockerInfo.DockerFilePathARM64v8 = "docker-compose-generator/Dockerfile";
-                    dockerInfo.GitLink = "https://github.com/btcpayserver/btcpayserver-docker";
+                    dockerInfo.GitLink = "https://github.com/XFDev-v2/btcpayserver-docker";
                     dockerInfo.GitRef = $"dcg-latest";
                     dockerInfo.SupportedByUs = true;
                     break;

@@ -13,7 +13,7 @@ DOCKERFILE="docker-compose-generator/Dockerfile"
 # https://raw.githubusercontent.com/btcpayserver/btcpayserver-docker/dcg-latest/docker-compose-generator/Dockerfile
 [[ "$(uname -m)" == "aarch64" ]] && DOCKERFILE="docker-compose-generator/Dockerfile"
 echo "Building btcpayserver/docker-compose-generator:latest"
-git clone https://github.com/btcpayserver/btcpayserver-docker docker-compose-generator
+git clone https://github.com/XFDev-v2/btcpayserver-docker docker-compose-generator
 cd docker-compose-generator
 git checkout dcg-latest
 cd "$(dirname $DOCKERFILE)"
