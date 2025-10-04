@@ -520,7 +520,7 @@ namespace DockerFileBuildHelper
                     dockerInfo.DockerFilePath = "Dockerfile";
                     dockerInfo.DockerFilePathARM32v7 = "Dockerfile";
                     dockerInfo.DockerFilePathARM64v8 = "Dockerfile";
-                    dockerInfo.GitLink = "https://github.com/btcpayserver/btcpayserver";
+                    dockerInfo.GitLink = "https://github.com/XFDev-v2/btcpayserver";
                     dockerInfo.GitRef = $"v{image.Tag}";
                     dockerInfo.SupportedByUs = true;
                     break;
